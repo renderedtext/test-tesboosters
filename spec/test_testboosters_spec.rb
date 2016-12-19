@@ -5,23 +5,8 @@ describe TestTestboosters do
     expect(TestTestboosters::VERSION).not_to be nil
   end
 
-  it 'sleep for 3 sec' do
-    sleep 3
-    expect(true).to eq(true)
-  end
-
-  it 'sleep for 5 sec' do
-    sleep 5
-    expect(true).to eq(true)
-  end
-
-  it 'sleep for 7 sec' do
-    sleep 7
-    expect(true).to eq(true)
-  end
-
-  it 'sleep for 11 sec' do
-    sleep 11
+  it 'sleep for 55 sec' do
+    sleep 55
     expect(true).to eq(true)
   end
 
