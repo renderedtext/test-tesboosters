@@ -10,4 +10,5 @@ describe TestTestboosters do
   it 'introduce jitter' do
     random_sleep
   end
+  
 end
