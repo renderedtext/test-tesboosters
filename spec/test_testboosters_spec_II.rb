@@ -10,19 +10,9 @@ describe TestTestboosters do
     expect(true).to eq(true)
   end
 
-  it 'sleep for 5 sec' do
-    sleep 5
+
+  it 'sleep for 13 sec' do
+    sleep 13
     expect(true).to eq(true)
   end
-
-  it 'sleep for 7 sec' do
-    sleep 7
-    expect(true).to eq(true)
-  end
-
-  it 'sleep for 11 sec' do
-    sleep 11
-    expect(true).to eq(true)
-  end
-
 end
