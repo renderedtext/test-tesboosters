@@ -10,4 +10,7 @@ describe TestTestboosters do
     expect(true).to eq(true)
   end
 
+  it 'introduce jitter' do
+    random_sleep
+  end
 end

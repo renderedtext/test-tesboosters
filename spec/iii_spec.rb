@@ -6,4 +6,8 @@ describe TestTestboosters do
     sleep 43
     expect(true).to eq(true)
   end
+
+  it 'introduce jitter' do
+    random_sleep
+  end
 end

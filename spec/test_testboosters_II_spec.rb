@@ -1,18 +1,13 @@
 require 'spec_helper'
 
 describe TestTestboosters do
-  it 'has a version number' do
-    expect(TestTestboosters::VERSION).not_to be nil
-  end
 
-  it 'sleep for 3 sec' do
-    sleep 3
+  it 'sleep for 16 sec' do
+    sleep 16
     expect(true).to eq(true)
   end
 
-
-  it 'sleep for 13 sec' do
-    sleep 13
-    expect(true).to eq(true)
+  it 'introduce jitter' do
+    random_sleep
   end
 end
