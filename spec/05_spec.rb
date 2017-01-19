@@ -1,9 +1,9 @@
 require 'spec_helper'
 
 describe TestTestboosters do
-
-  it 'takes 43 sec - II' do
-    sleep 43
+  it 'takes 17 sec' do
+    puts 'File: 05'
+    sleep 17
     expect(true).to eq(true)
   end
 
